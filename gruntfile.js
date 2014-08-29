@@ -13,11 +13,10 @@ function gruntConfig(grunt) {
     }
   }
 
-  grunt.registerTask('test:dev', [
-    'mochaTest:dev',
-    'mochaTest:cov'
+  grunt.registerTask('test', [
+    'mochaTest'
   ]);
   grunt.registerTask('default', [
-    'test:dev'
+    'test'
   ]);
 }

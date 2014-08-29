@@ -1,5 +1,5 @@
 module.exports = {
-  dev: {
+  spec: {
     options: {
       reporter: 'spec',
       require: 'coverage/blanket'
