@@ -5,6 +5,7 @@
   "scripts": {
     "test": "grunt"
   },
+  "main": "./lib/api/index.js",
   "dependencies": {
     "bluebird": "^2.3.0",
     "lodash": "^2.4.1",
